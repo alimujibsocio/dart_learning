@@ -24,7 +24,7 @@ void main() {
   int nullableNumber;
   // int nonNullableNumber = nullableNumber!; - konversi paksa tapi sepertinya tidak bisa lagi pasti error
 
-  //mengakses nullable member
+  //mengakses data nullable member
   int? intNumber;
   double? doubleNumber = intNumber?.toDouble();
   print(doubleNumber);
