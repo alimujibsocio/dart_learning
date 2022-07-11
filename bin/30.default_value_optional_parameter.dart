@@ -1,6 +1,6 @@
 //default value jika ingin hasil optional parameter tidak nullable tambah = default value setelah parameter
 void sayHello(String firstname,
-    [String middlename = '', String lastname = '']) {
+    [String middlename = '', String lastname = 'kosong ini']) {
   print('hello $firstname $middlename$lastname');
 }
 
