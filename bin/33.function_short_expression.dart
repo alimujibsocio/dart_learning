@@ -1,6 +1,6 @@
 // int sum(int first, int second) {
 //   return first + second;
-// }
+// } //versi panjang
 
 //dengan short expression lebih singkat jika isinya hanya 1 baris saja
 int sum(int first, int second) => first + second;
